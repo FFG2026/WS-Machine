@@ -9,18 +9,13 @@ export function Footer() {
     <footer className="bg-brand-charcoal text-white/80">
       <div className="container-page grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <div className="flex items-center gap-2.5">
-            <Image
-              src="/mark.png"
-              alt="WS Machine"
-              width={200}
-              height={42}
-              className="h-7 w-auto brightness-0 invert"
-            />
-            <span className="text-lg font-black tracking-[0.12em] text-white">
-              MACHINE
-            </span>
-          </div>
+          <Image
+            src="/mark-full.png"
+            alt="WS Machine & Plant Hire"
+            width={2023}
+            height={676}
+            className="h-16 w-auto"
+          />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/60">
             Reliable excavator and heavy machinery hire, backed by a fleet
             that&apos;s serviced, tested and ready to work.

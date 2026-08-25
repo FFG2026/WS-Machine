@@ -26,14 +26,19 @@ export function Header() {
         >
           <Image
             src="/mark.png"
-            alt="WS Machine"
-            width={200}
-            height={42}
+            alt="WS Machine & Plant Hire"
+            width={895}
+            height={426}
             priority
-            className="h-7 w-auto sm:h-8"
+            className="h-8 w-auto sm:h-9"
           />
-          <span className="text-lg font-black tracking-[0.12em] text-brand-charcoal sm:text-xl">
-            MACHINE
+          <span className="flex flex-col leading-none">
+            <span className="text-lg font-black tracking-[0.12em] text-brand-charcoal sm:text-xl">
+              MACHINE
+            </span>
+            <span className="text-[10px] font-semibold tracking-[0.15em] text-brand-gray uppercase">
+              &amp; Plant Hire
+            </span>
           </span>
         </Link>
 
