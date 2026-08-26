@@ -12,8 +12,8 @@ export function Footer() {
           <Image
             src="/mark-full.png"
             alt="WS Machine & Plant Hire"
-            width={2023}
-            height={676}
+            width={2053}
+            height={703}
             className="h-16 w-auto"
           />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/60">

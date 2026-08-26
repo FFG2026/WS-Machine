@@ -23,10 +23,10 @@ export function Header() {
           <Image
             src="/mark-full-light.png"
             alt="WS Machine & Plant Hire"
-            width={1997}
-            height={650}
+            width={1048}
+            height={252}
             priority
-            className="h-12 w-auto sm:h-14"
+            className="h-10 w-auto sm:h-12"
           />
         </Link>
 

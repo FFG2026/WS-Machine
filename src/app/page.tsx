@@ -60,6 +60,7 @@ const GALLERY = [
   { src: "/photos/gallery-2.jpg", alt: "WS Machine dumper on site" },
   { src: "/photos/gallery-3.jpg", alt: "WS Machine operator digging a trench on a residential job" },
   { src: "/photos/gallery-4.jpg", alt: "WS Machine mini excavator ready for delivery" },
+  { src: "/photos/gallery-5.jpg", alt: "WS Machine mini excavator and dumper clearing a demolition site" },
 ];
 
 export default function Home() {
