@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Icon } from "@/components/Icon";
+import { Gallery } from "@/components/Gallery";
 
 const FEATURES = [
   {
@@ -28,13 +29,8 @@ const FEATURES = [
 const FLEET = [
   {
     title: "Mini & Midi Excavators",
-    range: "1 – 6 tonne",
+    range: "1 – 3 tonne",
     text: "Ideal for tight access sites, landscaping and groundworks.",
-  },
-  {
-    title: "Standard Excavators",
-    range: "8 – 20 tonne",
-    text: "For larger digs, foundations and bulk earthmoving.",
   },
   {
     title: "Attachments",
@@ -184,7 +180,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {FLEET.map((item) => (
               <div
                 key={item.title}
@@ -221,22 +217,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {GALLERY.map((photo) => (
-              <div
-                key={photo.src}
-                className="group relative aspect-[4/5] overflow-hidden rounded-xl bg-brand-surface ring-1 ring-black/5"
-              >
-                <Image
-                  src={photo.src}
-                  alt={photo.alt}
-                  fill
-                  sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-              </div>
-            ))}
-          </div>
+          <Gallery photos={GALLERY} />
         </div>
       </section>
 
