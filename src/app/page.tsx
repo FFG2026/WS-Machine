@@ -57,6 +57,22 @@ const GALLERY = [
   { src: "/photos/gallery-3.jpg", alt: "WS Machine operator digging a trench on a residential job" },
   { src: "/photos/gallery-4.jpg", alt: "WS Machine mini excavator ready for delivery" },
   { src: "/photos/gallery-5.jpg", alt: "WS Machine mini excavator and dumper clearing a demolition site" },
+  { src: "/photos/gallery-6.jpg", alt: "Komatsu mini excavator and operator levelling a gravel car park" },
+  { src: "/photos/gallery-7.jpg", alt: "Komatsu PC14R mini excavator digging on site" },
+  { src: "/photos/gallery-8.jpg", alt: "Komatsu mini excavator on a residential driveway" },
+  { src: "/photos/gallery-9.jpg", alt: "Komatsu mini excavator ready to clear a front garden" },
+  { src: "/photos/gallery-10.jpg", alt: "Yanmar ViO26 mini excavator with WS Machine & Plant Hire branding" },
+  { src: "/photos/gallery-11.jpg", alt: "Yanmar ViO26 mini excavator, rear view, on a lawn" },
+  { src: "/photos/gallery-12.jpg", alt: "Yanmar ViO26 mini excavator unloaded at the roadside" },
+  { src: "/photos/gallery-13.jpg", alt: "Yanmar ViO26 mini excavator with tilting bucket on a lawn" },
+  { src: "/photos/gallery-14.jpg", alt: "Yanmar ViO26 mini excavator ready to work in a garden" },
+  { src: "/photos/gallery-15.jpg", alt: "Yanmar mini excavator cab and dozer blade" },
+  { src: "/photos/gallery-16.jpg", alt: "WS Machine dumper on a building site" },
+  { src: "/photos/gallery-17.jpg", alt: "WS Machine dumper on a garden landscaping job" },
+  { src: "/photos/gallery-18.jpg", alt: "WS Machine dumper tipping soil into a lorry" },
+  { src: "/photos/gallery-19.jpg", alt: "High-tip dumper loading a tipper lorry" },
+  { src: "/photos/gallery-20.jpg", alt: "High-tip dumper raised over the side of a tipper lorry" },
+  { src: "/photos/gallery-21.jpg", alt: "WS Machine dumper loaded on a trailer ready for delivery" },
 ];
 
 export default function Home() {
