@@ -244,7 +244,7 @@ function Lightbox({
 
       <div
         ref={thumbsRef}
-        className="flex gap-2 overflow-x-auto px-4 py-4 sm:justify-center sm:px-6"
+        className="flex gap-2 overflow-x-auto px-4 py-4 sm:px-6 [&>*:first-child]:ml-auto [&>*:last-child]:mr-auto"
       >
         {photos.map((p, i) => (
           <button
